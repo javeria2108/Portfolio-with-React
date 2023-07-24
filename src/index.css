@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background-color: black;
+  color: white;
+}
+@font-face {
+  font-family: 'helvetica'; 
+  src: url('./assets/fonts/helvetica-neu.ttf') format('truetype');
+  
+ 
+}
+@font-face {
+  font-family: 'LaBelle'; 
+  src: url('./assets/fonts/LaBelleAurore.woff2') format('woff2');
+  
+ 
+}
+@font-face {
+  font-family: 'Coolvetica'; 
+  src: url('./assets/fonts/CoolveticaRg-Regular.woff2') format('woff2');
+  
+ 
+}
+input,textarea{
+  font-family: 'helvetica';
+}
