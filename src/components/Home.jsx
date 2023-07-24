@@ -16,7 +16,7 @@ const Home = () => {
            
 
         </div>
-        <Link to="/contact" className='sm:m-auto border-2 p-2 sm:p-5 text-sm text-center sm:text-2xl
+        <Link to="/contact" className='my-20 ml-3 sm:m-auto border-2 p-2 sm:p-5 text-sm text-center sm:text-2xl
         hover:-translate-y-1 hover:scale-110 hover:bg-navbar duration-300' >CONTACT ME</Link>
         </div>
         <div className='flex flex-row mr-3 sm:mr-8 sm:text-xl text-lg pl-5 sm:px-20 pt-10
