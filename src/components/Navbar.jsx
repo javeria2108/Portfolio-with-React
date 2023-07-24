@@ -10,7 +10,9 @@ const Navbar = () => {
         <nav className='flex flex-row items-center justify-between h-16 sm:h-20 w-full bg-navbar '>
             <Link to="/">
             <img src={LogoJ} alt='logo' className='ml-5 max-w-32 max-h-32 sm:max-w-48 sm:max-h-48 '></img>
+         
             </Link>
+            
             
 
             <div className='flex flex-row mr-3 sm:mr-8 text:xl
