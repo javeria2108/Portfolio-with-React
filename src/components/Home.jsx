@@ -7,7 +7,7 @@ const Home = () => {
     <div>
         <div className='flex flex-row justify-between px-10 sm:px-20 pt-10'>
         <div className='flex flex-col items-start' >
-            <h1 className='text:3xl sm:text-5xl'>
+            <h1 className='text-3xl sm:text-5xl'>
                 Hi, <br/> I'm Javeria Zaheer
                 <br/>
                 Web Developer
@@ -16,10 +16,10 @@ const Home = () => {
            
 
         </div>
-        <Link to="/contact" className='m-auto border-2 p-2 sm:p-5 text:lg sm:text-2xl
+        <Link to="/contact" className='m-auto border-0 sm:border-2 p-2 sm:p-5 text-lg sm:text-2xl
         hover:-translate-y-1 hover:scale-110 hover:bg-navbar duration-300' >CONTACT ME</Link>
         </div>
-        <div className='flex flex-row mr-3 sm:mr-8 sm:text-xl text-lg px:10 sm:px-20 pt-10
+        <div className='flex flex-row mr-3 sm:mr-8 sm:text-xl text-lg pl-10 sm:px-20 pt-10
          text-white '>
               
                   <a 
