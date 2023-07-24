@@ -5,6 +5,7 @@
 body{
   background-color: black;
   color: white;
+  font-family: 'Coolvetica';
 }
 @font-face {
   font-family: 'helvetica'; 
@@ -26,4 +27,7 @@ body{
 }
 input,textarea{
   font-family: 'helvetica';
+}
+a.active{
+ color: black;
 }

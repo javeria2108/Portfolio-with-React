@@ -8,6 +8,10 @@ export default {
     colors:{
       navbar: '#514E4C',
       tealight:'#CFC6C1',
+      greybg:'#777777',
+      brown:'#443939',
+      white:"#FFFFFF",
+      lightest:'#FFFFDD'
     },
     fontFamily:{
       helvetica:['helvetica','sans-serif'],

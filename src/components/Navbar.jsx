@@ -3,26 +3,34 @@ import { Link,NavLink } from 'react-router-dom'
 import LogoJ from '../assets/images/logo-j.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faHome, faUser } from '@fortawesome/free-solid-svg-icons'
+
 const Navbar = () => {
   return (
     <div >
-        <nav className='flex flex-row items-center justify-between h-20 sm:h-28 w-full bg-navbar '>
+        <nav className='flex flex-row items-center justify-between h-16 sm:h-20 w-full bg-navbar '>
             <Link to="/">
-            <img src={LogoJ} alt='logo' className='ml-5 max-w-36 max-h-36 sm:max-w-48 sm:max-h-48 '></img>
+            <img src={LogoJ} alt='logo' className='ml-5 max-w-32 max-h-32 sm:max-w-48 sm:max-h-48 '></img>
             </Link>
-           
-            <div className='flex flex-row mr-3 sm:mr-8 text:xl sm:text-2xl text-tealight'>
+            
+
+            <div className='flex flex-row mr-3 sm:mr-8 text:xl
+             sm:text-2xl text-tealight '>
               <NavLink exact="true" to="/">
-              <FontAwesomeIcon icon={faHome} className='mx-2 sm:mx-4'/>
+              <FontAwesomeIcon icon={faHome} className="mx-2 
+              sm:mx-4 hover:-translate-y-1 hover:scale-110
+               hover:text-greybg duration-300 "/>
               </NavLink>
               <NavLink exact="true" to="about">
-              <FontAwesomeIcon icon={faUser} className='mx-3 sm:mx-4'/>
+              <FontAwesomeIcon icon={faUser} className='mx-3 sm:mx-4 hover:-translate-y-1 hover:scale-110 hover:text-greybg duration-300 '/>
               </NavLink>
               <NavLink exact="true" to="/contact">
-              <FontAwesomeIcon icon={faEnvelope} className='mx-3 sm:mx-4'/>
+              <FontAwesomeIcon icon={faEnvelope} className='mx-3 sm:mx-4 hover:-translate-y-1 hover:scale-110 hover:text-greybg duration-300 '/>
               </NavLink>
+             
 
-            </div>
+         
+         
+             </div>
         </nav>
 
     </div>
