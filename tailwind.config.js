@@ -7,6 +7,7 @@ export default {
   theme: {
     colors:{
       navbar: '#514E4C',
+      tealight:'#CFC6C1',
     },
     fontFamily:{
       helvetica:['helvetica','sans-serif'],
