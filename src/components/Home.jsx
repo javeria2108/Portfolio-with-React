@@ -5,10 +5,10 @@ import { faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-ic
 const Home = () => {
   return (
     <div>
-        <div className='flex flex-row justify-between px-20 pt-10'>
+        <div className='flex flex-row justify-between px-5 sm:px-20 pt-10'>
         <div className='flex flex-col items-start' >
-            <h1 className='text-5xl'>
-                Hi, <br/> I'm Javeria
+            <h1 className='text:2xl sm:text-5xl'>
+                Hi, <br/> I'm Javeria Zaheer
                 <br/>
                 Web Developer
             </h1>
@@ -16,7 +16,8 @@ const Home = () => {
            
 
         </div>
-        <Link to="/contact" className='m-auto border-2 p-3 sm:p-5 text:xl sm:text-2xl' >CONTACT ME</Link>
+        <Link to="/contact" className='m-auto border-2 p-3 sm:p-5 text:lg sm:text-2xl
+        hover:-translate-y-1 hover:scale-110 hover:bg-navbar duration-300' >CONTACT ME</Link>
         </div>
         <div className='flex flex-row mr-3 sm:mr-8 sm:text-xl text-lg px-20 pt-10
          text-white '>
