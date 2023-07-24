@@ -5,9 +5,9 @@ import { faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-ic
 const Home = () => {
   return (
     <div>
-        <div className='flex flex-row justify-between px-5 sm:px-20 pt-10'>
+        <div className='flex flex-row justify-between px-10 sm:px-20 pt-10'>
         <div className='flex flex-col items-start' >
-            <h1 className='text:2xl sm:text-5xl'>
+            <h1 className='text:3xl sm:text-5xl'>
                 Hi, <br/> I'm Javeria Zaheer
                 <br/>
                 Web Developer
