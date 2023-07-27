@@ -3,7 +3,7 @@ import { Link,NavLink } from 'react-router-dom'
 import LogoJ from '../assets/images/logo-j.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faHome, faUser } from '@fortawesome/free-solid-svg-icons'
-
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 const Navbar = () => {
   return (
     <div >
@@ -22,9 +22,9 @@ const Navbar = () => {
               sm:mx-4 hover:-translate-y-1 hover:scale-110
                hover:text-greybg duration-300 "/>
               </NavLink>
-              <NavLink exact="true" to="about">
+              <AnchorLink href='#about'>
               <FontAwesomeIcon icon={faUser} className='mx-3 sm:mx-4 hover:-translate-y-1 hover:scale-110 hover:text-greybg duration-300 '/>
-              </NavLink>
+              </AnchorLink>
               <NavLink exact="true" to="/contact">
               <FontAwesomeIcon icon={faEnvelope} className='mx-3 sm:mx-4 hover:-translate-y-1 hover:scale-110 hover:text-greybg duration-300 '/>
               </NavLink>

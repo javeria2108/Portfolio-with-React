@@ -1,21 +1,12 @@
 import React from 'react'
 import Navbar from './Navbar'
-import { Outlet } from 'react-router-dom'
-import Home from './Home'
+import Header from './Header'
 
 const Layout = () => {
   return (
     <div>
         <Navbar/>
-        {/* <div>
-          <span>&lt;body&gt;</span>
-          <Outlet/>
-          <span>
-            &lt;body&gt;
-            <br/>
-            <span> &lt;html&gt;</span>
-            </span>
-        </div> */}
+       <Header/>
     </div>
   )
 }

@@ -17,7 +17,9 @@ export default {
       lightest:'#FFFFDD',
       black:"#000000",
       purpleLight:"#985AC4",
-      darkBlue:"#210070"
+      darkBlue:"#210070",
+      darkestBlue:"#09005C",
+      darkPurple:"#2F0048"
     },
     fontFamily:{
       helvetica:['helvetica','sans-serif'],
