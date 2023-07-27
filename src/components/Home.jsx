@@ -5,7 +5,7 @@ import Layout from './Layout'
 import Skills from './Skills'
 import Footer from './Footer'
 import Certificates from './Certificates'
-import Projects from './Portfolio/Projects'
+import Projects from './Projects'
 const Home = () => {
   return (
     <div>
