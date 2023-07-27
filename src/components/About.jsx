@@ -5,7 +5,7 @@ import jslogo from '../assets/images/jslogo.png'
 const About = () => {
   return (
     <div id='about' className=''>
-        <div className='h-120 flex flex-col items-center justify-center
+        <div className='flex flex-col items-center justify-center
          m-auto pt-10 text-2xl sm:text-4xl font-helvetica '>
             <h1 className='mb-4'>{"<"} About me {"/>"}</h1>
     
