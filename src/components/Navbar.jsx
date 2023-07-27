@@ -7,7 +7,7 @@ import { faEnvelope, faHome, faUser } from '@fortawesome/free-solid-svg-icons'
 const Navbar = () => {
   return (
     <div >
-        <nav className='flex flex-row items-center justify-between h-16 sm:h-20 w-full bg-navbar '>
+        <nav className='flex flex-row items-center justify-between h-16 sm:h-20 w-full '>
             <Link to="/">
             <img src={LogoJ} alt='logo' className='ml-5 max-w-32 max-h-32 sm:max-w-48 sm:max-h-48 '></img>
          
