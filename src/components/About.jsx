@@ -17,11 +17,12 @@ const About = () => {
                 world of technology. 
               </p>
               <div className='flex flex-row items-center justify-center'>
-             <img src={reactlogo} className='w-16 h-16 sm:w-20 sm:h-20 sm:mt-32  rounded-full shadow-md shadow-navbar p-2'/>
+             <img src={reactlogo} className='w-16 h-16 sm:w-20 sm:h-20 mt-20 sm:mt-32  rounded-full shadow-md shadow-navbar p-2'/>
               <img src={codingimg} className='w-48 sm:w-56 p-4 rounded-full shadow-md shadow-navbar'></img>
-              <img src={jslogo} className='w-16 h-16 sm:w-20 sm:h-20 sm:mt-32  rounded-full shadow-md shadow-navbar p-2'/>
+              <img src={jslogo} className='w-16 h-16 sm:w-20 sm:h-20 mt-20 sm:mt-32  rounded-full shadow-md shadow-navbar p-2'/>
               </div>
-              <button className='w-48 sm:w-56 font-helvetica text-xl sm:text-2xl my-2 p-2 sm:p-3 sm:my-5 border border-white   hover:-translate-y-1 hover:scale-110 duration-300' >Download Resume</button>
+              <button className='w-48 sm:w-56 font-helvetica text-xl sm:text-2xl my-4
+               p-2 sm:p-3 sm:my-5 border border-white   hover:-translate-y-1 hover:scale-110 duration-300' >Download Resume</button>
             </div>
         </div>
         </div>
