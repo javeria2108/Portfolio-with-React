@@ -9,7 +9,7 @@ const About = () => {
          m-auto pt-10 text-2xl sm:text-4xl font-helvetica '>
             <h1 className='mb-4'>{"<"} About me {"/>"}</h1>
     
-            <div className='flex flex-col w-3/4 font-coolvetica items-center text-center m-auto px-5 sm:px10 bg- rounded-2xl shadow-inner shadow-navbar border-b border-b-navbar'>
+            <div className='flex flex-col w-full sm:w-3/4 font-coolvetica items-center text-center m-auto px-5 sm:px10 bg- rounded-2xl shadow-inner shadow-navbar border-b border-b-navbar'>
               <p className='p-5 text-lg sm:text-xl'>
                 I am a Computer Engineering sophomore from Lahore, Pakistan.
                 Currently I develop frontend applications using React js and I am interested in learning full
