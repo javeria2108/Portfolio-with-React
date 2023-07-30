@@ -24,11 +24,11 @@ const ProjectsData=[
 ]
 const Projects = () => {
   return (
-    <div >
+    <div id='projects'>
          <div className='flex flex-col items-center justify-center
          mt-5 pt-10 text-2xl sm:text-4xl font-helvetica bg-stars mb-5'>
             <h1 className='mb-4'>{"<"} Projects {"/>"}</h1>
-            <div className='flex-wrap bg-black rounded-lg mb-5'>
+            <div className='flex-wrap  mb-5'>
         {ProjectsData.map((project,index)=>(
              <div key={index} className='bg-black bg-opacity-60 py-3 flex flex-col w-11/12 sm:w-3/4  items-center text-center my-10 mx-auto px-5 sm:px-10  rounded-2xl shadow-inner shadow-navbar border-b border-b-navbar'>
              <h3 className='font-coolvetica py-3'>{project.title}</h3>

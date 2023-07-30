@@ -6,7 +6,7 @@ const skills=[{name:"Html",percent:90,color:"#2F0048"},{name:"CSS",percent:75,co
 {name:"Recoil",percent:75,color:"#8CC84B"},{name:"Styled Components",percent:80,color:"#00D5FA"}]
 const Skills = () => {
   return (
-    <div className='flex flex-col items-center justify-center
+    <div id='skills' className='flex flex-col items-center justify-center
     mt-5 pt-10 text-2xl sm:text-4xl font-helvetica'>
       <h1 className='mb-4'>{"<"} Skills {"/>"}</h1>
       <div className='flex flex-col w-full sm:w-3/4 font-helvetica  text-center  m-auto px-5 py-5 sm:px-10 bg- rounded-2xl shadow-inner shadow-navbar border-b border-b-navbar'>

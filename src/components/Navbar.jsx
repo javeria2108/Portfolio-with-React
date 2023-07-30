@@ -25,9 +25,9 @@ const Navbar = () => {
               <AnchorLink href='#about'>
               <FontAwesomeIcon icon={faUser} className='mx-3 sm:mx-4 hover:-translate-y-1 hover:scale-110 hover:text-greybg duration-300 '/>
               </AnchorLink>
-              <NavLink exact="true" to="/contact">
+             <AnchorLink href='#contact'>
               <FontAwesomeIcon icon={faEnvelope} className='mx-3 sm:mx-4 hover:-translate-y-1 hover:scale-110 hover:text-greybg duration-300 '/>
-              </NavLink>
+              </AnchorLink>
              
 
          
